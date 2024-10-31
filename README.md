@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Social links profile Code Snippet](https://your-solution-url.com)
-- Live Site URL: [Social links profile website](https://your-live-site-url.com)
+- Live Site URL: [Social links profile website](https://social-links-profile-im-gvp-98.netlify.app/)
 
 ## My process
 
