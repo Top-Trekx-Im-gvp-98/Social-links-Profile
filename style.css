@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+}
+
+.flex-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.social-links-profile-card {
+    width: 350px;
+    height: 550px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 8%);
+    overflow: hidden;
+    /* box-shadow: 0 10px 15px hsl(0, 0%, 12%); */
+}
+
+.content,
+.btn-grp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.content {
+    margin: 40px;
+}
+
+.image-card img {
+    width: 65px;
+    border-radius: 50%;
+}
+
+.content .card-title {
+    margin-top: 15px;
+    font-size: 22px;
+    color: hsl(0, 0%, 100%);
+}
+
+.content .card-location-info {
+    margin-top: 7px;
+    font-size: 11px;
+    color: hsl(75, 94%, 57%);
+}
+
+.content .card-bio {
+    margin-top: 30px;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+}
+
+.btn-grp {
+    gap: 15px;
+}
+
+.btn-grp .Btn {
+    border: none;
+    outline: none;
+    width: 290px;
+    height: 4vh;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+
+.btn-grp .Btn:hover {
+    color: hsl(0, 0%, 8%);
+    background-color: hsl(75, 94%, 57%);
+}
